@@ -1,0 +1,38 @@
+.footer {
+
+  & .footer-info {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    & > ul {
+      margin-bottom: 0.5rem;
+      display: flex;
+      gap: @gap-regular;
+      font-size: @font-size-small;
+    }
+
+    & .email-form {
+      display: flex;
+      align-items: end;
+      gap: @gap-default;
+
+      & .input {
+        display: flex;
+        flex-direction: column;
+
+        & > label {
+          font-size: @font-size-small;
+          margin-bottom: 1rem;
+        }
+      
+        & > input {
+          padding: @padding-button-default;
+          background: @background-1;
+          border-radius: @radius-button;
+        }
+      }
+    }
+  }
+}

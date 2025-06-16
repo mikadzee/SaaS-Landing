@@ -1,0 +1,35 @@
+.testimonials {
+  
+  & .wrapper {
+    padding: 5.2rem 0;
+
+    & .info {
+      margin: 0 auto;
+      width: 80%;
+
+      & > p {
+        margin-bottom: 4rem;
+      }
+
+      & .reviews {
+
+        & .review {
+          display: flex;
+          align-items: center;
+          gap: @gap-default;
+
+          & .statistic {
+            & > p {
+              margin-bottom: 0.5rem;
+            }
+
+            & .stars {
+              display: flex;
+              gap: @gap-small;
+            }
+          }
+        }
+      }
+    }
+  }
+}
